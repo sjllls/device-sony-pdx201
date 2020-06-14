@@ -12,13 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_pdx201.mk \
-                     $(LOCAL_DIR)/lineage_pdx201_DSDS.mk
+# Inherit device parts
+$(call inherit-product, device/sony/pdx201/aosp_xqau51.mk)
 
-COMMON_LUNCH_CHOICES += \
-    lineage_pdx201-eng \
-    lineage_pdx201-userdebug \
-    lineage_pdx201-user \
-    lineage_pdx201_DSDS-eng \
-    lineage_pdx201_DSDS-userdebug \
-    lineage_pdx201_DSDS-user
+# Override Product Name
+PRODUCT_NAME := lineage_pdx201
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := pdx201
