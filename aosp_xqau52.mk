@@ -16,13 +16,13 @@
 PRODUCT_DEVICE_DS := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.default_network=9,9
+    ro.telephony.default_network=21,21
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/pdx201/aosp_xqau51.mk)
 
 PRODUCT_NAME := aosp_xqau52
 PRODUCT_DEVICE := pdx201
-PRODUCT_MODEL := Xperia 10 II (AOSP)
+PRODUCT_MODEL := Xperia 10 II
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony

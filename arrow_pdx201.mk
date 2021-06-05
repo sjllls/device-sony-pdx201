@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Inherit device parts
-$(call inherit-product, device/sony/pdx201/aosp_xqau51.mk)
+$(call inherit-product, device/sony/pdx201/aosp_xqau52.mk)
 
 # Override Product Name
-PRODUCT_NAME := lineage_pdx201
+PRODUCT_NAME := arrow_pdx201
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := pdx201

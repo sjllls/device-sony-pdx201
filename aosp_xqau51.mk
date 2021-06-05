@@ -21,6 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := aosp_xqau51
 PRODUCT_DEVICE := pdx201
-PRODUCT_MODEL := Xperia 10 II (AOSP)
+PRODUCT_MODEL := Xperia 10 II
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
